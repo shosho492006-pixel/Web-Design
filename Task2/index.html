@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <div>
+                <label>Name</label>
+                <input type="text" pattern="[A-Za-z]{3,5}" required>
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" required >
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" required pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).+">
+            </div>
+
+            <div>
+                <label>Mobile</label>
+                <input type="text" required pattern="01[0125][0-9]{8}">
+            </div>
+
+
+            <div>
+               <input value="languages" list="lang">
+               <datalist id="lang">
+               <option value="html">
+               <option value="css">
+               <option value="js">
+               </datalist>
+            </div>   
+
+            
+           <div>
+                  <label> Range </label>
+                  <input type="range" name="range" max="500" min="300"/>
+            </div>
+
+            
+            <div>
+                <label>Address</label>
+                <input type="text" required pattern="[A-Za-z ]+">
+            </div>
+
+
+            <div>
+               <label>Image</label>
+               <input type="file" accept=".png" required>
+            </div>
+                
+            
+            <div>
+                <input type="submit" value="send"/>
+            </div>
+        </form>
+</body>
+</html>
