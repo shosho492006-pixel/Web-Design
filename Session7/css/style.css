@@ -1,0 +1,298 @@
+/* Reset style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+/* Global style */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+.padding-top-bottom {
+    padding: 4% 0%;
+}     
+
+
+.d-flex {
+    display: flex;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+.align-self-center {
+    align-self: center;
+}
+
+
+.position-relative {
+    position: relative;
+}
+
+
+
+/* Navbar */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+
+.navbar-logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+nav ul {
+    width: 25%;
+    align-items: center;
+}
+
+
+
+/* Background */
+
+.bg-img {
+
+    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+
+    height: 600px;
+
+    background-repeat: no-repeat;
+
+    background-size: 72% 100%;
+
+    background-position: right;
+}
+
+
+
+/* Cards */
+
+.custom-card {
+
+    width: 31%;
+
+    background-color: white;
+
+    box-shadow: 0px 0px 5px 2px lightgray;
+
+    position: relative;
+
+}
+
+
+/* Post information */
+
+.post-info {
+
+    height: 50px;
+
+    background-color: white;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    font-size: 13px;
+
+    color: #777;
+
+}
+
+
+.post-info b {
+
+    color: #20c9d1;
+
+}
+
+
+.post-info i {
+
+    color: #333;
+
+    margin-right: 4px;
+
+}
+
+
+
+/* Card Image */
+
+.custom-card > .position-relative > img {
+
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+/* Card Body */
+
+.card-body {
+
+    padding: 10% 5% 5% 5%;
+
+}
+
+
+.card-body h3 {
+
+    color: #20c9d1;
+
+    font-size: 19px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.card-body p {
+
+    color: #777;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+
+}
+
+
+
+/* Small line */
+
+.small-line {
+
+    width: 32px;
+
+    height: 5px;
+
+    background-color: #333;
+
+    margin-bottom: 18px;
+
+}
+
+
+
+/* Author */
+
+.custom-position-absolute {
+
+    position: absolute;
+
+    width: 90px;
+
+    height: 90px;
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    padding: 7px;
+
+    right: 15px;
+
+    bottom: -45px;
+
+    z-index: 2;
+
+}
+
+
+.custom-position-absolute img {
+
+    width: 100%;
+
+    height: 100%;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+
+
+
+/* Overlay */
+
+.card-overlay {
+
+    background-color: rgba(0, 0, 0, 0.569);
+
+    position: absolute;
+
+    top: 50px;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 260px;
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+}
+
+
+.card-overlay p {
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+
+
+/* Hover */
+
+.custom-card:hover .card-overlay {
+
+    display: flex;
+
+}
+
+#arrow-icon {
+    font-size: 30px;
+    background: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 90%;
+    right: 32px;
+}
