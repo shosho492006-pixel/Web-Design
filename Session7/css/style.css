@@ -40,49 +40,6 @@
     position: relative;
 }
 
-
-
-/* Navbar */
-
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-}
-
-
-.navbar-logo {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-
-nav ul {
-    width: 25%;
-    align-items: center;
-}
-
-
-
-/* Background */
-
-.bg-img {
-
-    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
-
-    height: 600px;
-
-    background-repeat: no-repeat;
-
-    background-size: 72% 100%;
-
-    background-position: right;
-}
-
-
-
-/* Cards */
-
 .custom-card {
 
     width: 31%;
@@ -96,7 +53,7 @@ nav ul {
 }
 
 
-/* Post information */
+
 
 .post-info {
 
@@ -134,7 +91,7 @@ nav ul {
 
 
 
-/* Card Image */
+
 
 .custom-card > .position-relative > img {
 
@@ -150,7 +107,7 @@ nav ul {
 
 
 
-/* Card Body */
+
 
 .card-body {
 
@@ -182,7 +139,7 @@ nav ul {
 
 
 
-/* Small line */
+
 
 .small-line {
 
@@ -198,7 +155,7 @@ nav ul {
 
 
 
-/* Author */
+
 
 .custom-position-absolute {
 
@@ -237,7 +194,7 @@ nav ul {
 
 
 
-/* Overlay */
+
 
 .card-overlay {
 
@@ -274,25 +231,10 @@ nav ul {
 
 
 
-/* Hover */
+
 
 .custom-card:hover .card-overlay {
 
     display: flex;
 
-}
-
-#arrow-icon {
-    font-size: 30px;
-    background: black;
-    color: white;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 90%;
-    right: 32px;
 }
