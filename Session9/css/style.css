@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg-black{
+    background-color: black;
+    margin: 200px auto;
+    
+}
+
+img{
+    width: 40%;
+    display: block;
+    padding: 100px;
+    animation: CarMoving 3s linear infinite;
+
+}
+
+
+@keyframes CarMoving{
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(4000px);
+    }
+}
+
