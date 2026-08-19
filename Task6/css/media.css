@@ -1,0 +1,370 @@
+/* Ipad */
+@media (max-width: 768.98px) {
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-image img {
+        height: 195px;
+    }
+
+    .wellbeing-drawing {
+        display: none;
+    }
+
+    .wellbeing-content {
+        width: 100%;
+    }
+
+    .wellbeing-content h2 {
+        text-align: center;
+    }
+
+    .small-feature {
+        width: 50%;
+    }
+
+    .organic-image {
+        width: 48%;
+    }
+
+    .organic-image img {
+        height: 290px;
+    }
+
+    .organic-content {
+        width: 50%;
+    }
+
+    .food-drawing {
+        display: none;
+    }
+
+    .food-content {
+        width: 100%;
+    }
+
+    .food-content h2 {
+        text-align: center;
+    }
+
+    .food-feature {
+        width: 50%;
+    }
+
+    .cta-box {
+        width: 80%;
+        left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cta-item {
+        width: 50%;
+    }
+
+    footer .container {
+        align-items: flex-start;
+    }
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-images {
+        gap: 15px;
+    }
+
+    .hero-image {
+        width: 50%;
+    }
+
+    .hero-image img {
+        height: 195px;
+    }
+
+    .wellbeing-box {
+        padding: 30px;
+    }
+
+    .wellbeing-content {
+        width: 100%;
+    }
+
+    .wellbeing-features {
+        gap: 30px;
+    }
+
+    .small-feature {
+        width: 50%;
+        text-align: center;
+    }
+
+    .small-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .organic-image {
+        width: 48%;
+    }
+
+    .organic-image img {
+        height: 290px;
+    }
+
+    .organic-content {
+        width: 50%;
+    }
+
+    .food-box {
+        padding: 30px;
+    }
+
+    .food-content {
+        width: 100%;
+    }
+
+    .food-feature {
+        width: 50%;
+        text-align: center;
+    }
+
+    .food-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-box {
+        width: 80%;
+        left: 10%;
+    }
+
+    .cta-item {
+        width: 50%;
+    }
+
+    footer .container {
+        display: block;
+    }
+
+    footer ul {
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    .hero-text h1 {
+        font-size: 26px;
+    }
+
+    .hero-image img {
+        height: 170px;
+    }
+
+    .small-feature p {
+        font-size: 7px;
+    }
+
+    .organic-image img {
+        height: 250px;
+    }
+
+}
+
+
+
+
+/* Mobile */
+
+@media (max-width: 575.98px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 25px;
+    }
+
+    .hero-text p {
+        font-size: 8px;
+        padding: 0 20px;
+    }
+
+    .hero-images {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .hero-image img {
+        height: 155px;
+    }
+
+
+    .wellbeing-box {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    .wellbeing-content {
+        width: 100%;
+    }
+
+    .wellbeing-content h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .wellbeing-features {
+        display: block;
+    }
+
+    .small-feature {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .small-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wellbeing-drawing {
+        display: none;
+    }
+
+
+    .organic .container {
+        display: block;
+    }
+
+    .organic-image {
+        width: 100%;
+    }
+
+    .organic-image img {
+        height: 290px;
+    }
+
+    .organic-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .organic-content h2 {
+        font-size: 21px;
+    }
+
+    .organic-description {
+        font-size: 8px;
+    }
+
+    .organic-feature {
+        text-align: left;
+    }
+
+
+    .food-box {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    .food-drawing {
+        display: none;
+    }
+
+    .food-content {
+        width: 100%;
+    }
+
+    .food-content h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .food-features {
+        display: block;
+    }
+
+    .food-feature {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .food-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .cta {
+        padding-bottom: 120px;
+    }
+
+    .cta-background {
+        height: 380px;
+    }
+
+    .cta-content {
+        width: 90%;
+        padding-top: 45px;
+    }
+
+    .cta-content h2 {
+        font-size: 17px;
+    }
+
+    .cta-content p {
+        font-size: 7px;
+    }
+
+    .cta-box {
+        width: 75%;
+        left: 12.5%;
+        bottom: -110px;
+        display: block;
+        padding: 25px 20px;
+    }
+
+    .cta-item {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+
+    footer .container {
+        display: block;
+    }
+
+    footer ul {
+        margin-top: 20px;
+    }
+
+}

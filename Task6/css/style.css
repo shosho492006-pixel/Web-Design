@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #292929;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+.flex-box {
+    display: flex;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.padding-top-bottom {
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+
+
+
+
+
+nav {
+    padding: 18px 0;
+}
+
+
+.logo {
+    gap: 7px;
+    font-size: 13px;
+}
+
+
+.logo span {
+    width: 14px;
+    height: 14px;
+
+    background-color: #d2d2d2;
+
+    border-radius: 50%;
+}
+
+
+.logo b {
+    color: #286671;
+}
+
+
+nav ul {
+    list-style: none;
+    gap: 27px;
+}
+
+
+nav ul li a {
+    color: #292929;
+
+    text-decoration: none;
+
+    font-size: 9px;
+}
+
+
+
+
+
+
+.hero {
+    padding-top: 55px;
+}
+
+
+.hero-text h1 {
+    font-size: 38px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+
+.hero-text p {
+    font-size: 9px;
+
+    margin-bottom: 18px;
+}
+
+
+.main-btn {
+    display: inline-block;
+
+    background-color: #286671;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    padding: 8px 40px;
+
+    border-radius: 20px;
+}
+
+
+.hero-images {
+    gap: 24px;
+
+    margin-top: 28px;
+}
+
+
+.hero-image {
+    width: 50%;
+}
+
+
+.hero-image img {
+    width: 100%;
+
+    height: 200px;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.wellbeing-box {
+    background-color: #f5f5f5;
+
+    min-height: 225px;
+
+    border-radius: 7px;
+
+    padding: 35px 55px;
+}
+
+
+.wellbeing-content {
+    width: 65%;
+}
+
+
+.wellbeing-content h2 {
+    font-size: 27px;
+
+    margin-bottom: 25px;
+}
+
+
+.wellbeing-features {
+    gap: 45px;
+}
+
+
+.small-feature {
+    width: 30%;
+}
+
+
+.small-icon {
+    width: 30px;
+    height: 30px;
+
+    background-color: #286671;
+
+    color: white;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 9px;
+}
+
+
+.small-icon i {
+    font-size: 12px;
+}
+
+
+.small-feature p {
+    font-size: 8px;
+
+    line-height: 1.55;
+}
+
+
+
+
+
+.wellbeing-drawing {
+    width: 35%;
+
+    height: 170px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.wellbeing-drawing img {
+    width: 170px;
+
+    height: 170px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+
+
+
+
+.organic {
+    padding-top: 52px;
+
+    padding-bottom: 52px;
+}
+
+
+.organic-image {
+    width: 48%;
+}
+
+
+.organic-image img {
+    width: 100%;
+
+    height: 290px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 8px;
+}
+
+
+.organic-content {
+    width: 46%;
+}
+
+
+.organic-content h2 {
+    font-size: 27px;
+
+    margin-bottom: 12px;
+}
+
+
+.organic-description {
+    font-size: 8px;
+
+    line-height: 1.6;
+
+    margin-bottom: 22px;
+}
+
+
+.organic-feature {
+    gap: 14px;
+
+    margin-bottom: 16px;
+}
+
+
+.organic-icon {
+    width: 28px;
+    height: 28px;
+
+    border: 1px solid #286671;
+
+    border-radius: 50%;
+
+    color: #286671;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+
+.organic-icon i {
+    font-size: 12px;
+}
+
+
+.organic-feature p {
+    font-size: 8px;
+}
+
+
+
+
+
+
+.food-box {
+    background-color: #f5f5f5;
+
+    min-height: 275px;
+
+    border-radius: 7px;
+
+    padding: 30px 55px;
+}
+
+
+
+
+
+.food-drawing {
+    width: 37%;
+
+    height: 200px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.food-drawing img {
+    width: 230px;
+
+    height: 200px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+.food-content {
+    width: 60%;
+}
+
+
+.food-content h2 {
+    font-size: 27px;
+
+    margin-bottom: 25px;
+}
+
+
+.food-features {
+    gap: 50px;
+}
+
+
+.food-feature {
+    width: 35%;
+}
+
+
+.food-icon {
+    width: 30px;
+    height: 30px;
+
+    background-color: #f4caba;
+
+    color: #286671;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 9px;
+}
+
+
+.food-icon i {
+    font-size: 12px;
+}
+
+
+.food-feature p {
+    font-size: 8px;
+
+    line-height: 1.55;
+}
+
+
+
+
+
+
+.cta {
+    padding-top: 52px;
+
+    padding-bottom: 105px;
+}
+
+
+.cta-background {
+    height: 430px;
+
+    background-image: url("../images/image6.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    border-radius: 7px;
+
+    position: relative;
+}
+
+
+.cta-background::before {
+    content: "";
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.35);
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    border-radius: 7px;
+}
+
+
+.cta-content {
+    width: 60%;
+
+    color: white;
+
+    position: relative;
+
+    margin: auto;
+
+    padding-top: 55px;
+}
+
+
+.cta-icon {
+    width: 45px;
+
+    height: 45px;
+
+    border: 1px solid white;
+
+    border-radius: 6px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+
+    margin-bottom: 15px;
+}
+
+
+.cta-icon i {
+    font-size: 20px;
+}
+
+
+.cta-content h2 {
+    font-size: 21px;
+
+    margin-bottom: 8px;
+}
+
+
+.cta-content p {
+    font-size: 8px;
+
+    line-height: 1.6;
+
+    margin-bottom: 18px;
+}
+
+
+.cta-btn {
+    display: inline-block;
+
+    border: 1px solid white;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    padding: 7px 40px;
+
+    border-radius: 20px;
+}
+
+
+.cta-box {
+    width: 82%;
+
+    min-height: 175px;
+
+    background-color: #f8d5c6;
+
+    position: absolute;
+
+    left: 9%;
+
+    bottom: -85px;
+
+    border-radius: 7px;
+
+    padding: 38px 50px;
+}
+
+
+.cta-item {
+    text-align: center;
+}
+
+
+.round-icon {
+    width: 43px;
+
+    height: 43px;
+
+    border: 1px solid #292929;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+}
+
+
+.round-icon i {
+    font-size: 18px;
+}
+
+
+.cta-item p {
+    font-size: 9px;
+
+    margin-top: 7px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #286671;
+
+    color: white;
+
+    padding: 40px 0;
+}
+
+
+.footer-left .logo {
+    margin-bottom: 15px;
+}
+
+
+.footer-left .logo span {
+    background-color: white;
+}
+
+
+.footer-left .logo b {
+    color: white;
+}
+
+
+.social-icons {
+    display: flex;
+
+    gap: 14px;
+}
+
+
+.social-icons i {
+    font-size: 11px;
+}
+
+
+footer ul {
+    list-style: none;
+
+    gap: 27px;
+}
+
+
+footer ul li a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 9px;
+}
+
+
+
