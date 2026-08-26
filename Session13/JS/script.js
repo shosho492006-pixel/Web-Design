@@ -13,3 +13,12 @@ function looping(){
 }
 
 looping()
+
+
+
+let tracks = ["web design", "network", "ux"]
+let userTrack = prompt("Enter Track:")
+
+if (tracks.includes(userTrack)) alert("Founded")
+else tracks.push(userTrack)
+console.log(tracks)
